@@ -18,7 +18,7 @@ body{
     border: none;
     width: auto;
     height: auto;
-    background-color: rgb(71, 98, 234);
+    background-color: green;
     display: flex;
     flex-direction: column;
     justify-content: center;
