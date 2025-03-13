@@ -4,7 +4,7 @@ const amPm = document.getElementById('ampm');
 
 function getTime(){
     const time = new Date();
-    const hour = (time.getHours())%12;
+    const hour = (time.getHours())%12||12;
     const hours = hour<10?'0'+hour:hour;
     const minutues = time.getMinutes()<10?'0'+time.getMinutes():time.getMinutes();
     const seconds = time.getSeconds();
